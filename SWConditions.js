@@ -33,7 +33,7 @@ var ConditionScript = (function()
       handleToggleStatus
     )
 
-    sendChat("api", "Savage Worlds Conditions Script started.");
+    log("Savage Worlds Conditions Script started.");
 	}
 
   function handleListMarkers (argv, msg)
