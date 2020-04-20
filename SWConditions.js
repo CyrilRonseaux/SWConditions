@@ -3,6 +3,7 @@ var ConditionScript = (function()
 {
 	'use strict';
 
+  // Check https://github.com/Roll20/roll20-api-scripts/tree/master/SavageWorldsStatusChanger
 	// add mechanics to declare conditions and use them in macro like !toggle-condition stunned
 	//    or !add-conditions --target --conditions "entangled,distracted"
 	// use Class pattern from Roll20
@@ -33,7 +34,7 @@ var ConditionScript = (function()
       handleToggleStatus
     )
 
-    log("Savage Worlds Conditions Script started.");
+    log("-=> Savage Worlds Conditions Script started.");
 	}
 
   function handleListMarkers (argv, msg)
